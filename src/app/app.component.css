@@ -42,4 +42,7 @@
   button:hover {
     background-color: #45a049;
   }
+
+  ul { list-style-type: none; padding: 0; margin: 0; display: flex; flex-direction: column; align-items: center; } a { text-decoration: none; color: #007BFF; padding: 10px 20px; margin: 10px; border-radius: 5px; background-color: #f0f0f0; transition: background-color 0.3s ease, color 0.3s ease; } a:hover { background-color: #007BFF; color: white; }
+
   

@@ -1,43 +1,18 @@
 <ul>
-  <li>
-    <a routerLink="create">Create</a>
-  </li>
-  <li>
-    <a routerLink="edit">Edit</a>
-  </li>
-  <li>
-    <a routerLink="list">List</a>
-  </li>
+  <h1>Student Management System</h1>
+    <a routerLink="addstudent">Add Student</a>
+    <a routerLink="editstudent">Edit Student</a>
+    <a routerLink="list">Delete Student</a>
+    <a routerLink="list">Show Student</a>
+    
 </ul>
 
-<!-- Form to collect data -->
-<div class="form-container">
-  <h2>User Form</h2>
-
-  <form (ngSubmit)="onSubmit()">
-    <div>
-      <label for="firstName">First Name:</label>
-      <input type="text" id="firstName" [(ngModel)]="user.firstName" name="firstName" required />
-    </div>
-
-    <div>
-      <label for="lastName">Last Name:</label>
-      <input type="text" id="lastName" [(ngModel)]="user.lastName" name="lastName" required />
-    </div>
-
-    <div>
-      <label for="mobile">Mobile:</label>
-      <input type="text" id="mobile" [(ngModel)]="user.mobile" name="mobile" required />
-    </div>
-
-    <button type="submit">Save</button>
-  </form>
-</div>
 
 
+<!-- 
 <app-child-component [msg]="ParentMsg"></app-child-component>
 
 <h1>{{10+10}}</h1>
 <h1>{{'abhishek'.toUpperCase()}}</h1>
-<h1>{{data==data2}}</h1>
+<h1>{{data==data2}}</h1> -->
 <router-outlet></router-outlet>

@@ -5,7 +5,7 @@ import { ChildComponentComponent } from './child-component/child-component.compo
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink , FormsModule , ChildComponentComponent],
+  imports: [RouterOutlet, RouterLink , FormsModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
 })
